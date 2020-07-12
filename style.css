@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', "Regular";
+    margin: 0;
+}
+
+header{
+    width:100%;
+}
+
+body{
+    max-width: 375px;
+}
+
+.menu{
+    background-color: black;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+    
+
+h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-family:'Segoe UI';
+    font-style: normal;
+    font-size: 20pt;
+    font-weight: lighter;
+    color: white;
+    padding-left: 10px;
+}
+
+.mobile img{
+    width: 100%;
+
+}
+
+.mobile{
+    max-width: 27px;
+    vertical-align: middle;
+    margin-right: 10px;
+
+
+}
+
+.image1{
+    max-width: 375px  
+}
+
+.articles-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 47%;
+    margin: 10px auto;
+}
+
+.card img{
+    width: 100%;
+}
+
+
+article h2{
+    font-size: 13px;
+    text-align: left;
+    font-weight: 700;
+}
+
+article p{
+    font-size: 10px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.contenedor-articulos{
+    background-color: #37201A;
+    color: #C27159;
+    font-size: 13pt;
+}
+
+.contenedor-articulos section{
+    width: 80%;
+    margin: auto;
+    font-size: 13pt;
+}
+
+.contenedor-articulos section h3{
+    margin:15px auto;
+    padding-top:1em;
+    font-size: 13pt;
+}
+
+.otros-paes img{
+    width: 100%;
+    margin:15px 0;
+
+}
+
+.otros-paes{
+    padding:0 0 20px 0;
+    margin:0 auto;
+    font-size: 13pt;
+}
+
+.otro{
+    font-family:"Segoe ui" ;
+    color:#C27159;
+}
+
+.otros-paes p{
+    color:#7A503E;
+    font-size: 8pt;
+    padding-bottom: 20px;
+}
+
+.info-1{
+    display: flex;
+    justify-content:space-between;
+    margin:15px 0;
+}
+
+li a{
+    color: #7A503E ;
+    font-size: 5pt;
+    
+}
+.info-1 img{
+    width: 20%;
+}
+
+h3{
+   font-style: bold;
+   font-size: 13pt;
+   color: #C27159;
+}
+
+.info-1 p{
+    width: 75%;
+    font-size: 8 pt;
+}
+
+.new{
+    width: 100%;
+    background-color: #251611;
+    padding: 34px 0;
+    line-height: 12,88;
+}
+.new p{
+    width: 85%;
+    color: #7A503E;
+    line-height: 12,88;
+    font-size: 8pt;
+    margin: 1em auto 15px;
+   }
+
+p b{
+    font-weigth:800;
+    color: #C27159;
+   }
+
+.new ul{
+    list-style: none;
+    font-size: 8pt;
+    padding: 20px;
+}
+
+.new a{
+    font-size: 8pt;
+}
+
+footer{
+    background-color: #180E0C;
+    color: #7A503E;
+    width: 100%;
+    font-size: 8pt;
+    text-align:center;
+    font-style: normal;
+}
+
+footer p{
+    padding: 15px 0;
+}
+
